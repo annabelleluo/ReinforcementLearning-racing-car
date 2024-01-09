@@ -1,4 +1,6 @@
  # Autonomous car racing agent
+## Introduction 
+The project is centered on the development of an autonomous car racing agent. We have implemented a variation of the original CarRacing-V0 environment of the package Gym which includes modification of the state-space, action space, reward function and overall complexity (obstacles, bonuses, multiple lanes..) of the environment. Two types of agents, DQN and PPO were tested on two configurations of the environment; Baseline (similar to the original gym environment) and Complex (include intersections, obstacles, bonuses). PPO has been shown to greatly outperform DQN, by mastering both environments.
 
  To get started, follow the steps below to create the necessary environment and install the required dependencies.
 
