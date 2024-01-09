@@ -59,7 +59,7 @@ If the car touched an obstacle, 50 points are deducted from the score
 
 
 Example of a baseline environment:
-
+```python
 env = lambda : CarRacing(
         grayscale=1,
         show_info_panel=0,
@@ -73,9 +73,9 @@ env = lambda : CarRacing(
         verbose=0,
         num_obstacles=0
         )
-
+```
 Example of a complex environment
-
+```python
 env = lambda : CarRacing(
         grayscale=1, ## 0 = RGB images, 1 = Grayscale images 
         show_info_panel=0, ## 0 to not show the score panel, 1 if you want
@@ -89,9 +89,10 @@ env = lambda : CarRacing(
         num_obstacles=5, ## Number of obstacles per sub-sections of the track
         prop_good_obstacles=0.5 ## 50% chance for an obstacle to be generated as a bonus
         )
-
+```
  The above environment has both obstacles and bonuses (50% chance for an obstacle to be generated as a bonus) and includes intersections.
 
 
  ### Videos of the Pre-trained agent
+ 
  Videos for illustration of the trained agent are available inside the video sub-folder of the illustrations folder.
