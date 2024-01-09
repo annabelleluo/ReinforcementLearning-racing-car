@@ -1,4 +1,4 @@
- # Develop an autonomous car racing agent
+ # Autonomous car racing agent
 
  To get started, follow the steps below to create the necessary environment and install the required dependencies.
 
