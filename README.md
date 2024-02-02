@@ -98,3 +98,25 @@ env = lambda : CarRacing(
  ### Videos of the Pre-trained agent
  
  Videos for illustration of the trained agent are available inside the video sub-folder of the illustrations folder.
+ 
+ Baseline DQN Base env:
+ 
+ ![Baseline DQN Base env](https://github.com/annabelleluo/ReinforcementLearning-racing-car/blob/main/Illustrations/Baseline%20DQN%20Base%20env.gif)
+
+  Baseline PPO Base env:
+ 
+ ![Baseline PPO Base env](https://github.com/annabelleluo/ReinforcementLearning-racing-car/blob/main/Illustrations/Baseline%20PPO%20Base%20env%20.gif)
+
+  Tuned PPO Base env:
+ 
+ ![TUned PPO Base env](https://github.com/annabelleluo/ReinforcementLearning-racing-car/blob/main/Illustrations/Tuned%20PPO%20Base%20Env.gif)
+
+  Tuned PPO complex env obs_bonus: 
+  
+ ![Tuned PPO complex env obs_bonus](https://github.com/annabelleluo/ReinforcementLearning-racing-car/blob/main/Illustrations/Tuned%20PPO%20Complex%20Env%20obs_bonus%20.gif)
+
+   Tuned PPO complex env:
+   
+ ![Tuned PPO complex env](https://github.com/annabelleluo/ReinforcementLearning-racing-car/blob/main/Illustrations/Tuned%20PPO%20Complex%20Env.gif)
+ 
+ 
